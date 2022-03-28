@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta pagina es un simulador de loteria">
+    <meta name="author" content="Martin Setaro">
+    <meta name="keywords" content="loteria,juego,simulador,sorteo,ganador,perder,numeros"/>
+    <link rel="icon" href="./img/loteria.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalizer.css">
+    <link rel="preload" href="css/normalizer.css" as="style">
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Loteria...juega y gana!</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./img/loteria.png" alt="loteria" title="loteria">
+        <h1>Bienvenido al juego de la loteria</h1>
+    </header>
+    <main class="container">
+        <section class="seleccionDeNumeros">
+            <h2>Por favor elija un numero de 1 a 50</h2>
+            <div class="ingresoDeNumeros">
+                <label for="num1">Numero 1 </label>
+                <input class="inputNumber1" type="number" min="1" max="50" id="num1">
+                <label for="num2">Numero 2 </label>
+                <input class="inputNumber2" type="number" min="1" max="50" id="num2">
+            </div>
+        </section>
+        <section class="contenedorDeNumeros">
+            <button class="btn_numeros">Tirar!</button>
+            <div class="seccionNumeros">
+
+            </div>
+            <h2 class="recargar">Recargar pagina para jugar de nuevo!</h2>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3>Realizado por Martin Setaro - &copy; 2022</h3>
+    </footer>
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
